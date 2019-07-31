@@ -455,6 +455,9 @@ section.form .container {
   flex-wrap: wrap;
   margin: 0 -15px;
 }
+#header2-s .mbr-section-title I {
+  font-size: 46px;
+}
 #ext_menu-0 .hide-buttons .nav-btn {
   display: none !important;
 }
@@ -516,18 +519,6 @@ section.form .container {
 #ext_menu-0 .link[aria-expanded="true"],
 #ext_menu-0 .dropdown-item[aria-expanded="true"] {
   color: #faaf40!important;
-}
-#msg-box5-3 H3 {
-  color: #efefef;
-}
-#msg-box5-3 P {
-  color: #efefef;
-}
-#msg-box5-3 B {
-  font-size: 18px;
-}
-#msg-box5-3 I {
-  font-size: 36px;
 }
 #header3-h .mbr-section-title,
 #header3-h .mbr-section-subtitle {
