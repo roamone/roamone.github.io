@@ -5,6 +5,12 @@
 
 
 
+
+
+
+
+
+
 body,
 input,
 textarea,
@@ -456,10 +462,15 @@ section.form .container {
   margin: 0 -15px;
 }
 #header2-s .mbr-section-title I {
-  font-size: 36px;
+  font-size: 46px;
 }
 #header2-s .mbr-section-text {
-  color: #cccccc;
+  color: #ffffff;
+  font-size: 20px;
+}
+#header2-s .btn {
+  font-size: 16px;
+  font-family: 'Droid Sans', sans-serif;
 }
 #ext_menu-0 .hide-buttons .nav-btn {
   display: none !important;
@@ -494,19 +505,19 @@ section.form .container {
 }
 #ext_menu-0 .link[aria-expanded="true"],
 #ext_menu-0 .dropdown-menu {
-  background: #1f5087;
+  background: #171c2c;
 }
 #ext_menu-0 .nav-dropdown-sm .link:focus,
 #ext_menu-0 .nav-dropdown-sm .link:hover,
 #ext_menu-0 .nav-dropdown-sm .dropdown-item:focus,
 #ext_menu-0 .nav-dropdown-sm .dropdown-item:hover {
-  background: #2662a4!important;
+  background: #232c44!important;
 }
 #ext_menu-0 .navbar,
 #ext_menu-0 .nav-dropdown-sm,
 #ext_menu-0 .nav-dropdown-sm .link[aria-expanded="true"],
 #ext_menu-0 .nav-dropdown-sm .dropdown-menu {
-  background: #2969b0;
+  background: #28324e;
 }
 #ext_menu-0 .bg-color.transparent .link {
   color: #ffffff;
@@ -523,6 +534,13 @@ section.form .container {
 #ext_menu-0 .dropdown-item[aria-expanded="true"] {
   color: #faaf40!important;
 }
+#ext_menu-0 A {
+  font-family: 'Montserrat', sans-serif;
+}
+#ext_menu-0 .btn {
+  font-size: 16px;
+  font-family: 'Droid Sans', sans-serif;
+}
 #footer1-c P {
   color: #ffffff;
 }
@@ -530,10 +548,24 @@ section.form .container {
 #header3-h .mbr-section-subtitle {
   text-align: center;
 }
+#header3-h .mbr-section-title {
+  font-size: 46px;
+}
 #content1-j P {
   text-align: center;
-  font-size: 20px;
+  font-size: 22px;
+}
+#buttons1-u .btn {
+  font-family: 'Droid Sans', sans-serif;
+  font-size: 16px;
 }
 #form1-m .form-control-label {
   color: #232323;
+}
+#form1-m SMALL {
+  font-family: 'Montserrat', sans-serif;
+}
+#form1-m .btn {
+  font-family: 'Droid Sans', sans-serif;
+  font-size: 16px;
 }

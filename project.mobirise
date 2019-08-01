@@ -27,7 +27,7 @@
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.10.6",
     "siteFonts": [],
-    "uniqCompNum": 32,
+    "uniqCompNum": 27,
     "versionPublish": "4.10.6",
     "screenshot": "screenshot.png",
     "favicon": "@PROJECT_PATH@/assets/images/chop-trans-128x97.png",
@@ -52,10 +52,10 @@
             "inverse": true,
             "showArrow": true,
             "imageSize": "45",
-            "bgImageRadio": false,
-            "bgImage": "@PROJECT_PATH@/assets/images/mbr.jpg",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2.jpg",
             "parallax": true,
-            "bgColorRadio": true,
+            "bgColorRadio": false,
             "bgColor": "#2969b0",
             "bgVideoRadio": false,
             "bgVideo": {
@@ -63,7 +63,7 @@
             },
             "overlay": true,
             "overlayColor": "#2969b0",
-            "overlayOpacity": "0.8"
+            "overlayOpacity": "0.5"
           },
           "media": {
             "image": {
@@ -86,8 +86,8 @@
               "size": 250
             }
           },
-          "title": "<i style=\"font-weight: normal;\">Sharp art for games!</i>",
-          "text": "Outsourced game art and other services.",
+          "title": "<span style=\"font-weight: normal;\"><i>Sharp art for games!</i></span>",
+          "text": "<i><b>Outsourced game art and other services.<br></b></i><br>",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"index.html#header3-h\" data-toolbar=\"-mbrBtnMove\">MORE</a>",
           "_tags": [
             "Theme"
@@ -96,10 +96,16 @@
           "_anchor": "header2-s",
           "_styles": {
             ".mbr-section-title I": {
-              "font-size": "36px"
+              "font-size": "46px"
             },
             ".mbr-section-text": {
-              "color": "#cccccc"
+              "color": "#ffffff",
+              "font-size": "20px"
+            },
+            ".btn": {
+              "font-size": "16px",
+              "font-family": "'Droid Sans', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Droid+Sans:400,700"
             }
           }
         },
@@ -112,7 +118,7 @@
             "sticky": true,
             "collapsed": true,
             "transparent": false,
-            "bgColor": "#2969b0",
+            "bgColor": "#28324e",
             "fontSize": "1",
             "fontName": {
               "name": "Droid Sans",
@@ -154,13 +160,13 @@
               "color": "@primaryColor"
             },
             ".link[aria-expanded=\"true\"], .dropdown-menu": {
-              "background": "#1f5087"
+              "background": "#171c2c"
             },
             ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
-              "background": "#2662a4!important"
+              "background": "#232c44!important"
             },
             ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
-              "background": "#2969b0"
+              "background": "#28324e"
             },
             ".bg-color.transparent .link": {
               "color": "#ffffff",
@@ -174,6 +180,15 @@
             },
             ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
               "color": "#faaf40!important"
+            },
+            "A": {
+              "font-family": "'Montserrat', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700"
+            },
+            ".btn": {
+              "font-size": "16px",
+              "font-family": "'Droid Sans', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Droid+Sans:400,700"
             }
           },
           "logo": {
@@ -203,7 +218,7 @@
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "parallax": true,
             "bgColorRadio": true,
-            "bgColor": "#2969b0",
+            "bgColor": "#28324e",
             "overlay": true,
             "overlayColor": "#444444",
             "overlayOpacity": 0.8
@@ -224,13 +239,16 @@
           "_styles": {
             ".mbr-section-title, .mbr-section-subtitle": {
               "text-align": "center"
+            },
+            ".mbr-section-title": {
+              "font-size": "46px"
             }
           },
           "_params": {
             "showMeta": false,
             "paddingTop": "7",
             "paddingBottom": "0",
-            "bgColor": "#ffffff"
+            "bgColor": "#efefef"
           },
           "title": "THE CHOP",
           "meta": "By John Smith posted July 20, 2016",
@@ -244,9 +262,9 @@
           "_params": {
             "paddingTop": "1",
             "paddingBottom": "0",
-            "bgColor": "#ffffff"
+            "bgColor": "#efefef"
           },
-          "text": "<p><i><b>Seasoned project veterans. Flavorful art skills.</b></i></p><p><i><b>Healthy collaborative attitude. Always ready to serve.</b></i></p><p><i><b><br></b></i></p><p><i><b>Featuring:</b></i></p><p><i><b><br></b></i></p>",
+          "text": "<p><b><i>Seasoned project veterans. Flavorful art skills.</i></b></p><p><b><i>Healthy collaborative attitude. Always ready to serve.</i></b></p><p><b><i><br></i></b></p><p><b><i>Featuring:</i></b></p><p><i><b><br></b></i></p>",
           "_tags": [
             "Theme"
           ],
@@ -255,7 +273,7 @@
           "_styles": {
             "P": {
               "text-align": "center",
-              "font-size": "20px"
+              "font-size": "22px"
             }
           }
         },
@@ -270,10 +288,10 @@
             "paddingBottom": "1",
             "columns": "3",
             "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-1.jpg",
             "parallax": true,
             "bgColorRadio": true,
-            "bgColor": "#ffffff",
+            "bgColor": "#efefef",
             "bgVideoRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
@@ -374,23 +392,30 @@
         },
         {
           "_params": {
-            "paddingTop": "1",
-            "paddingBottom": "5",
-            "bgColor": "#ffffff"
+            "paddingTop": "4",
+            "paddingBottom": "3",
+            "bgColor": "#efefef"
           },
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"index.html#form1-m\" data-toolbar=\"-mbrBtnMove\">CONTACT US</a> ",
           "_tags": [
             "Theme"
           ],
           "_name": "buttons1",
-          "_anchor": "buttons1-u"
+          "_anchor": "buttons1-u",
+          "_styles": {
+            ".btn": {
+              "font-family": "'Droid Sans', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Droid+Sans:400,700",
+              "font-size": "16px"
+            }
+          }
         },
         {
           "_params": {
             "showTitle": true,
             "showSubTitle": true,
             "labelsColor": "#232323",
-            "paddingTop": "4",
+            "paddingTop": "3",
             "paddingBottom": "4",
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
@@ -405,9 +430,9 @@
           "subtitle": "Want to know more about Artchop? Drop us an email. We'd love to hear from you!",
           "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">CHOP!</a>",
           "form": {
-            "action": "art.artchop@gmail.com",
+            "action": "art@artchop.net",
             "alerts": {
-              "success": "Thanks for filling out form!"
+              "success": "Thank you for your message!"
             },
             "fields": {
               "name": {
@@ -439,6 +464,15 @@
           "_styles": {
             ".form-control-label": {
               "color": "#232323"
+            },
+            "SMALL": {
+              "font-family": "'Montserrat', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700"
+            },
+            ".btn": {
+              "font-family": "'Droid Sans', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Droid+Sans:400,700",
+              "font-size": "16px"
             }
           }
         }
