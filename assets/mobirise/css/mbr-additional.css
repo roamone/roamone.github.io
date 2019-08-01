@@ -9,8 +9,6 @@
 
 
 
-
-
 body,
 input,
 textarea,
@@ -556,16 +554,6 @@ section.form .container {
   font-size: 22px;
 }
 #buttons1-u .btn {
-  font-family: 'Droid Sans', sans-serif;
-  font-size: 16px;
-}
-#form1-m .form-control-label {
-  color: #232323;
-}
-#form1-m SMALL {
-  font-family: 'Montserrat', sans-serif;
-}
-#form1-m .btn {
   font-family: 'Droid Sans', sans-serif;
   font-size: 16px;
 }
