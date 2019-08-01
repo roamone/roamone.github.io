@@ -456,7 +456,10 @@ section.form .container {
   margin: 0 -15px;
 }
 #header2-s .mbr-section-title I {
-  font-size: 46px;
+  font-size: 36px;
+}
+#header2-s .mbr-section-text {
+  color: #cccccc;
 }
 #ext_menu-0 .hide-buttons .nav-btn {
   display: none !important;
@@ -519,6 +522,9 @@ section.form .container {
 #ext_menu-0 .link[aria-expanded="true"],
 #ext_menu-0 .dropdown-item[aria-expanded="true"] {
   color: #faaf40!important;
+}
+#footer1-c P {
+  color: #ffffff;
 }
 #header3-h .mbr-section-title,
 #header3-h .mbr-section-subtitle {

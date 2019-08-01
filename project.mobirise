@@ -27,7 +27,7 @@
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.10.6",
     "siteFonts": [],
-    "uniqCompNum": 29,
+    "uniqCompNum": 32,
     "versionPublish": "4.10.6",
     "screenshot": "screenshot.png",
     "favicon": "@PROJECT_PATH@/assets/images/chop-trans-128x97.png",
@@ -86,9 +86,9 @@
               "size": 250
             }
           },
-          "title": "<i>Sharp art for games!</i>",
+          "title": "<i style=\"font-weight: normal;\">Sharp art for games!</i>",
           "text": "Outsourced game art and other services.",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"index.html#header3-h\" data-toolbar=\"-mbrBtnMove\">MORE</a>",
           "_tags": [
             "Theme"
           ],
@@ -96,7 +96,10 @@
           "_anchor": "header2-s",
           "_styles": {
             ".mbr-section-title I": {
-              "font-size": "46px"
+              "font-size": "36px"
+            },
+            ".mbr-section-text": {
+              "color": "#cccccc"
             }
           }
         },
@@ -210,7 +213,12 @@
             "Theme"
           ],
           "_name": "footer1",
-          "_anchor": "footer1-c"
+          "_anchor": "footer1-c",
+          "_styles": {
+            "P": {
+              "color": "#ffffff"
+            }
+          }
         },
         {
           "_styles": {
@@ -220,9 +228,9 @@
           },
           "_params": {
             "showMeta": false,
-            "paddingTop": "2",
+            "paddingTop": "7",
             "paddingBottom": "0",
-            "bgColor": "#cccccc"
+            "bgColor": "#ffffff"
           },
           "title": "THE CHOP",
           "meta": "By John Smith posted July 20, 2016",
@@ -236,7 +244,7 @@
           "_params": {
             "paddingTop": "1",
             "paddingBottom": "0",
-            "bgColor": "#cccccc"
+            "bgColor": "#ffffff"
           },
           "text": "<p><i><b>Seasoned project veterans. Flavorful art skills.</b></i></p><p><i><b>Healthy collaborative attitude. Always ready to serve.</b></i></p><p><i><b><br></b></i></p><p><i><b>Featuring:</b></i></p><p><i><b><br></b></i></p>",
           "_tags": [
@@ -259,13 +267,13 @@
             "ShowTexts": true,
             "showButtons": false,
             "paddingTop": "0",
-            "paddingBottom": "4",
+            "paddingBottom": "1",
             "columns": "3",
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "parallax": true,
             "bgColorRadio": true,
-            "bgColor": "#cccccc",
+            "bgColor": "#ffffff",
             "bgVideoRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
@@ -342,7 +350,7 @@
           "caption2": "Slick videos and H5 code to promote your games.",
           "title3": "Instant Art Teams",
           "subtitle3": "Google has a highly exhaustive list of fonts",
-          "caption3": "Solutions to temporarily or permanently expand your art team.",
+          "caption3": "Permanent or temporary solutions to expand your art team.",
           "title4": "AAA",
           "subtitle4": "Mobirise gives you the freedom to develop",
           "caption4": "Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.",
@@ -366,6 +374,19 @@
         },
         {
           "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "5",
+            "bgColor": "#ffffff"
+          },
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"index.html#form1-m\" data-toolbar=\"-mbrBtnMove\">CONTACT US</a> ",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "buttons1",
+          "_anchor": "buttons1-u"
+        },
+        {
+          "_params": {
             "showTitle": true,
             "showSubTitle": true,
             "labelsColor": "#232323",
@@ -375,13 +396,13 @@
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "parallax": true,
             "bgColorRadio": true,
-            "bgColor": "#fff",
+            "bgColor": "#ffffff",
             "overlay": false,
             "overlayColor": "#222",
             "overlayOpacity": 0.5
           },
           "title": "REACH OUT",
-          "subtitle": "Want to know more about Artchop? We'd love to hear from you!",
+          "subtitle": "Want to know more about Artchop? Drop us an email. We'd love to hear from you!",
           "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">CHOP!</a>",
           "form": {
             "action": "art.artchop@gmail.com",
