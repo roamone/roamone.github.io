@@ -539,9 +539,6 @@ section.form .container {
   font-size: 16px;
   font-family: 'Droid Sans', sans-serif;
 }
-#footer1-c P {
-  color: #ffffff;
-}
 #header3-h .mbr-section-title,
 #header3-h .mbr-section-subtitle {
   text-align: center;
@@ -555,5 +552,5 @@ section.form .container {
 }
 #buttons1-u .btn {
   font-family: 'Droid Sans', sans-serif;
-  font-size: 16px;
+  font-size: 20px;
 }

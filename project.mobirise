@@ -37,8 +37,8 @@
     "index.html": {
       "settings": {
         "main": true,
-        "title": "Home",
-        "meta_descr": "",
+        "title": "Artchop",
+        "meta_descr": "Artchop. Game art outsourcing.",
         "header_custom": "",
         "footer_custom": "",
         "html_before": ""
@@ -53,7 +53,7 @@
             "showArrow": true,
             "imageSize": "45",
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-3.jpg",
             "parallax": true,
             "bgColorRadio": false,
             "bgColor": "#2969b0",
@@ -209,31 +209,6 @@
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\">MOBIRISE</a>",
           "_name": "ext.menu",
           "_anchor": "ext_menu-0"
-        },
-        {
-          "_params": {
-            "paddingTop": 2,
-            "paddingBottom": 2,
-            "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "parallax": true,
-            "bgColorRadio": true,
-            "bgColor": "#28324e",
-            "overlay": true,
-            "overlayColor": "#444444",
-            "overlayOpacity": 0.8
-          },
-          "text": "2019 Artchop",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "footer1",
-          "_anchor": "footer1-c",
-          "_styles": {
-            "P": {
-              "color": "#ffffff"
-            }
-          }
         },
         {
           "_styles": {
@@ -406,7 +381,7 @@
             ".btn": {
               "font-family": "'Droid Sans', sans-serif",
               "googleLink": "https://fonts.googleapis.com/css?family=Droid+Sans:400,700",
-              "font-size": "16px"
+              "font-size": "20px"
             }
           }
         }
